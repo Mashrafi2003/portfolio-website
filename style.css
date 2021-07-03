@@ -13,10 +13,19 @@ body {
     font-family: 'Tourney', cursive;
 }
 
-#sec1 {
+.sec1 {
     display: flex;
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 200px;
+}
+
+.sec2 {
+    display: flex;
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+    background-position: right;
 }
 
 .half-width {
