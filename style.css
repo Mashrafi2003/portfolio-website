@@ -1,8 +1,39 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    font-size: 35px;
 }
 
 .little-header {
     color: rgb(59, 81, 180);
     font-family: 'Tourney', cursive;
+}
+
+#sec1 {
+    display: flex;
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 7%;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+.btn1 {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(orange, rgb(11, 205, 240));
+    font-weight: 800;
 }
