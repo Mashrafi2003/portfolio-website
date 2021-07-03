@@ -28,6 +28,10 @@ body {
     background-position: right;
 }
 
+.box-1 {
+    display: flex;
+}
+
 .half-width {
     width: 50%;
     padding-left: 7%;
@@ -45,4 +49,8 @@ body {
     color: white;
     background-image: linear-gradient(orange, rgb(11, 205, 240));
     font-weight: 800;
+}
+
+.dev-h3 {
+    color: orange;
 }
